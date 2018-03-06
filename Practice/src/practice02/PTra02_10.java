@@ -23,10 +23,9 @@ public class PTra02_10 {
 		 */
 
 		double shopping = (coffee+snack)*1.08;
-;
 
-
-		System.out.println(moneyInHand-Math.floor(shopping));
+		System.out.println(moneyInHand-(int)shopping);
+//		System.out.println(moneyInHand-Math.floor(shopping));
 
 
 	}
