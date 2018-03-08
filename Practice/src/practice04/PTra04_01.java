@@ -22,7 +22,9 @@ public class PTra04_01 {
 
 			// ★ 変数numの値を出力してください
 
-
+			if(num>100) {
+				 break;
+			}
 			System.out.println(num);
 
 
