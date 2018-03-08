@@ -10,11 +10,11 @@ public class PTra01_02 {
 	public static void main(String[] args) {
 
 		// ★ 12～14行目をコメントにしてください。
-		System.out.println("Hello,world");
-
-
+		// Javaの練習中です。
+		// これであってますか。
+		// 現在作成中
 		//  ★「Hello, world」と出力（コマンドプロンプトに表示）してください
-
+		System.out.println("Hello,world");
 
 	}
 }
