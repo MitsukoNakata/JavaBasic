@@ -23,11 +23,12 @@ public class PTra05_04 {
 		 */
 
 		// ①
-
-		System.out.println("0～6の整数を入力してください");
-		int line = scanner.nextInt();
-
+		int line = 0;
 		do {
+		System.out.println("0～6の整数を入力してください");
+		line = scanner.nextInt();
+
+
 
 
 		switch(line) {
