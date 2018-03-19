@@ -6,16 +6,21 @@ package practice08;
  * Copyright(c) Rhizome Inc. All Rights Reserved.
  */
 
+import java.util.Random;
+
 public class PTra08_03 {
 	public static void main(String[] args) {
 
 		// ★ 0～100のランダムな値を取得して、変数numberに代入してください
+		Random r = new Random();
+		int number = r.nextInt(101);
+		System.out.println(number);
 
 
-		// ★ 変数resultを宣言し、メソッドisEvenNumberを（変数number）で呼び出した結果を代入してください
+		 //★ 変数resultを宣言し、メソッドisEvenNumberを（変数number）で呼び出した結果を代入してください
+		boolean result= isEvenNumber(number);
 
-
-		if (result) {
+		if (result==true) {
 			System.out.println("偶数です");
 		} else {
 			System.out.println("奇数です");
@@ -31,4 +36,12 @@ public class PTra08_03 {
 	 *
 	 * 引数で渡された内容が偶数ならtrue、奇数ならfalseを返すメソッド
 	 */
+	public static boolean isEvenNumber(int x) {
+
+		return x%2 == 0;
+
+	}
+
+
+
 }
