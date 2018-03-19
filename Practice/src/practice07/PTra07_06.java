@@ -21,8 +21,7 @@ public class PTra07_06 {
 		int b = array[1].length;
 		int c = a + b;
 
-		//double sum = array[0][0]+array[0][1]+array[0][2]+array[1][0]+array[1][1]+array[1][2]+array[1][3];
-		double sum = array[0]+array[1];
+		double sum = array[0][0]+array[0][1]+array[0][2]+array[1][0]+array[1][1]+array[1][2]+array[1][3];
 		System.out.println(sum/c);
 
 

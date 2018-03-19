@@ -15,15 +15,15 @@ public class PTra07_03 {
 		// ★ 配列keywordに格納されている値を後ろから順番に全て表示してください
 	    //System.out.println(keyword[4]);
 	    //System.out.println(keyword[3]);
-	    //System.out.println(keyword[2]);
-	    //System.out.println(keyword[1]);
-	    //System.out.println(keyword[0]);
-	}
-	    {for(int i = 4; i>=0 ; i--);
-		
+	   // System.out.println(keyword[2]);
+//	    System.out.println(keyword[1]);
+//	    System.out.println(keyword[0]);
 
-		//	System.out.println(keyword[i]);
-
+	    for(int i = keyword.length-1; i>=0 ; i--) {
+	    	System.out.println(keyword[i]);
+	    }
+	 }
+}
 
 
 
