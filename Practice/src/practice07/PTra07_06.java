@@ -29,7 +29,6 @@ public class PTra07_06 {
 			for(int i:number) {
 				sum +=i;
 				count++;
-
 			}
 		}
 		System.out.println(sum / count);
