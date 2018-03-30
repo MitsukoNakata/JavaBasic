@@ -4,11 +4,20 @@ public class Car {
 
 	public int serialNo;
 	public String color;
-	public String gasoline;
+	public int gasoline;
 
-	
-	void run(int a) {
-		
+
+	public int run() {
+		this.gasoline--; //ガソリンを1つずつ減らす
+		int runDistance = new java.util.Random().nextInt(15) + 1;
+		if(this.gasoline <= -1) {
+			return -1;
+
+		}
+		return runDistance;
+
+
+
 	}
-	
+
 }
