@@ -52,6 +52,10 @@ public class Character {
 		return this.name;
 	}
 
+	public int getHp() {
+		 return this.hp;
+
+	}
 	/**
 	 * 攻撃を行います
 	 * @return 相手に与えるダメージを返します
@@ -75,6 +79,8 @@ public class Character {
 
 		// ダメージ分体力を減らす
 		this.hp -= calc;
+			System.out.println(this.name + "残りhp" + this.hp);
+
 
 		// 体力がなくなったかどうかの判定
 		if (this.hp <= 0) {
@@ -102,4 +108,8 @@ public class Character {
 
 		return str.toString();
 	}
+
+
+
+
 }
