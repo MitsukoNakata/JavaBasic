@@ -1,9 +1,22 @@
 package practice13.common;
 
 public class SuperHero	extends Hero {
-	public SuperHero(25,10,7) {
-		//Hero(25,10,7);
+	public Item equiment;
+
+	public int attack() {
+		return super.attack() + equiment.getAdditionalDamage();
+
 	}
+
+	public Item getEquiment() {
+		return equiment;
+	}
+
+	public void setEquiment(Item equiment) {
+		this.equiment = equiment;
+	}
+
+
 
 
 }

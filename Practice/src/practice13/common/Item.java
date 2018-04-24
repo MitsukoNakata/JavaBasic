@@ -9,20 +9,14 @@ public class Item {
 
 	/**アイテム名を取得します*/
 	public void setName(String name) {
-		this.name = name ;
-	}
-
+		this.name = name ;}
 	public  String getName() {
-			return this.name;
-	}
+			return name;}
 
 	public void setAdditionalDamage(int additionalDamage) {
-		this.additionalDamage = additionalDamage ;
-	}
-
+		this.additionalDamage = additionalDamage ;}
 	public int getAdditionalDamage() {
-		 	return this.additionalDamage;
-	}
+		 	return additionalDamage;}
 
 	public Item(String name, int additionalDamage) {
 		this.name = name;
