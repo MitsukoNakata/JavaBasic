@@ -1,8 +1,8 @@
 package practice13.common;
 
 public class Employee extends Person {
-	public String departmentNm;
-	public int departmentCnt;
+	public String departmentNm;  //部署名
+	public int departmentCnt;	 //部署人数
 
 	public void setDepartmentNm(String departmentNm) {
 		this.departmentNm = departmentNm ;}

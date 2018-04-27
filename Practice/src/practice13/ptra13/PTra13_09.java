@@ -37,17 +37,39 @@ public class PTra13_09 {
 
 		// ★ 定数で定義されている各データを使用して、Employeeインスタンスを３つ作成してください
 
-		Employee employee1 = new Employee();
-		Employee employee2 = new Employee();
-		Employee employee3 = new Employee();
+		//Employee employee1 = new Employee();
+		//Employee employee2 = new Employee();
+		//Employee employee3 = new Employee();
 
-		employee1.setUserNm("NAMEDATA[0]");
-		employee1.setUserNm("MAILDATA[0]");
-		employee1.setUserNm("PASSDATA[0]");
-		employee1.setUserNm("QUATERDATA[0][0]");
-		
-		System.out.println();
+		//employee[0],[1],[2]の生成
+		//Employee[] employee = { new Employee(),
+        //         new Employee(),
+         //        new Employee(),
+         //      };
+		Employee[] employees = new Employee[3];
 
+		for(int i=0;i<employees.length;i++) {
+
+		Employee em = new Employee();
+
+		em.setUserNm(NAMEDATA[i]);
+		em.setMail(MAILDATA[i]);
+		em.setPassword(PASSDATA[i]);
+		em.setDepartmentNm(QUATERDATA[0][i]);
+		em.setDepartmentCnt(Integer.parseInt(QUATERDATA[1][i]));
+
+		employees[i]=em;
+		}
+
+		for(int i=0;i<employees.length;i++) {
+		System.out.println(i+1+"目の社員情報\r\n"
+		+"名前："+employees[i].getUserNm()
+		+"\r\nメールアドレス："+employees[i].getMail()
+		+"\r\nパスワード："+employees[i].getPassword()
+		+"\r\n所属部署名："+employees[i].getDepartmentNm()
+		+"\r\n所属部署の人数："+employees[i].getDepartmentCnt()+"\r\n");
+
+		}
 
 	}
 }

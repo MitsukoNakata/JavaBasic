@@ -44,6 +44,9 @@ public class PTra10_03 {
 
 
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
-		System.out.println(userinfo[0]+userinfo[1]+userinfo[2]+userinfo[3]);
+		System.out.println("ユーザIDは"+us.userId);
+		System.out.println("ユーザ名は"+us.userNm);
+		System.err.println("メールアドレスは"+us.mail);
+		System.out.println("パスワードは"+us.password);
 	}
 }
