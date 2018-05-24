@@ -43,18 +43,18 @@ public class PTra05_03 {
 			 * ●変数lineが上記以外であった場合	->	「無効票です」を出力
 			 */
 			switch (line) {
-			case "山" :
-				mountain += 1;
-				break;
-			case "川" :
-				river += 1;
-				break;
-			case "海" :
-				ocean += 1;
-				break;
-			default:
+				case "山" :
+					mountain += 1;
+					break;
+				case "川" :
+					river += 1;
+					break;
+				case "海" :
+					ocean += 1;
+					break;
+				default:
 					System.out.println("無効票です");
-				break;
+					break;
 			}
 			// ★ 変数indexに1を足して、変数indexに代入してください
 				index ++;

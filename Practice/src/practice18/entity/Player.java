@@ -1,13 +1,6 @@
-/*
- * PTra18_02.java
- *   作成	LIKEIT	2017
- *------------------------------------------------------------
- * Copyright(c) Rhizome Inc. All Rights Reserved.
- */
-package practice18;
+package practice18.entity;
 
-public class entity_Player {
-
+public class Player {
 	/*
 	 * ★ BestElevenCandidate.csvの情報を保持するためのクラス、entity.Playerクラスを作成してください
 	 *
@@ -24,10 +17,11 @@ public class entity_Player {
 	 */
 
 	//フィールド
-	String position;
-	String name;
-	String country;
-	String team;
+	private String position;
+	private String name;
+	private String country;
+	private String team;
+
 	public String getPosition() {
 		return position;
 	}
@@ -54,16 +48,10 @@ public class entity_Player {
 	}
 	@Override
 	public String toString() {
-		return "entity_Player [position=" + position + ", name=" + name + ", country=" + country + ", team=" + team
+		return "ポジション：" + position + ", 名前：" + name + ", 出身地：" + country + ", 所属：" + team
 				+ "]";
 	}
-	public entity_Player(String position, String name, String country, String team) {
-		super();
-		this.position = position;
-		this.name = name;
-		this.country = country;
-		this.team = team;
-	}
+
 
 
 

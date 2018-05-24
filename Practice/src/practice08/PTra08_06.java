@@ -30,20 +30,20 @@ public class PTra08_06 {
 	}
 
 	// ★ dispValueを引数intでオーバーロードしてください。処理は同じ
-	public static int dispValue(int message) {
+	public static void dispValue(int message) {
 		System.out.println("「" + message + "」");
-		return message;
+
 	}
 
 	// ★ dispValueを引数doubleでオーバーロードしてください。処理は同じ
-	public static double dispValue(double message) {
+	public static void dispValue(double message) {
 		System.out.println("「" + message + "」");
-		return message;
+
 	}
 
 	// ★ dispValueを引数charでオーバーロードしてください。処理は同じ
-	public static char dispValue(char message) {
+	public static void dispValue(char message) {
 		System.out.println("「" + message + "」");
-		return message;
+
 	}
 }

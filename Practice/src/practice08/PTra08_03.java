@@ -38,8 +38,10 @@ public class PTra08_03 {
 	 */
 	public static boolean isEvenNumber(int x) {
 
-		return x%2 == 0;
-
+		 if( x % 2 == 0) {
+			 return true;
+		 }
+		 return false;
 	}
 
 

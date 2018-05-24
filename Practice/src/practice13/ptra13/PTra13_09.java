@@ -46,28 +46,27 @@ public class PTra13_09 {
         //         new Employee(),
          //        new Employee(),
          //      };
-		Employee[] employees = new Employee[3];
-
-		for(int i=0;i<employees.length;i++) {
-
+		Employee[] employees = new Employee[NAMEDATA.length];
 		Employee em = new Employee();
+		for(int i=0; i<employees.length;i++) {
 
 		em.setUserNm(NAMEDATA[i]);
 		em.setMail(MAILDATA[i]);
 		em.setPassword(PASSDATA[i]);
 		em.setDepartmentNm(QUATERDATA[0][i]);
 		em.setDepartmentCnt(Integer.parseInt(QUATERDATA[1][i]));
-
 		employees[i]=em;
+
 		}
 
 		for(int i=0;i<employees.length;i++) {
-		System.out.println(i+1+"目の社員情報\r\n"
-		+"名前："+employees[i].getUserNm()
-		+"\r\nメールアドレス："+employees[i].getMail()
-		+"\r\nパスワード："+employees[i].getPassword()
-		+"\r\n所属部署名："+employees[i].getDepartmentNm()
-		+"\r\n所属部署の人数："+employees[i].getDepartmentCnt()+"\r\n");
+			employees[i]=em;
+			System.out.println(i+1+"目の社員情報");
+			System.out.println("名前："+em.getUserNm());
+			System.out.println("メールアドレス："+em.getMail());
+			System.out.println("パスワード："+em.getPassword());
+			System.out.println("所属部署名："+em.getDepartmentNm());
+			System.out.println("所属部署の人数："+em.getDepartmentCnt()+"\r\n");
 
 		}
 
