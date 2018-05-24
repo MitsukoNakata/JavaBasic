@@ -43,7 +43,7 @@ public class PTra18_04 {
 		}
 
 		// ★ ①のArrayListの中からGK1名、DF4名、MF4名, FW2名をランダムで出力してください
-		Collections.shuffle(playerList);
+		Collections.shuffle(playerList); //ランダムにとりだす
 		int gkCount = 0;
 		int dfCount = 0;
 		int mfCount = 0;
