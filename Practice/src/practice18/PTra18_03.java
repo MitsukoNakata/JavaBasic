@@ -9,7 +9,7 @@ package practice18;
 public class PTra18_03 {
 
 	/*
-	 * PTra19_02で作成したPlayerクラスを使用します
+	 * PTra18_02で作成したPlayerクラスを使用します
 	 */
 
 	public static void main(String[] args) {

@@ -26,7 +26,7 @@ public class PTra18_02 {
 	public static void main(String[] args) {
 
 		/*
-		 * entity.Playerの作成後に行ってください
+		 * entity.Playerの作成後に行ってくださいjj
 		 *
 		 * ★ file/BestElevenCandidate.csvの内容を取得し、１行毎にPlayerインスタンスに情報を格納してください
 		 * ★ ArrayListを作成して、Playerインスタンスを格納してください
